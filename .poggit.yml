@@ -5,4 +5,5 @@ branches:
 projects:
   HangGlider:
     path: ""
+    icon: "icon.png"
 ...
