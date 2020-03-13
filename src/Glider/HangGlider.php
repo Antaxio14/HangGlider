@@ -1,6 +1,6 @@
 <?php
   
-namespace AntaxioYT\Glider;
+namespace AntaxioYT/Glider;
 
 use pocketmine\event\Listener;
 
