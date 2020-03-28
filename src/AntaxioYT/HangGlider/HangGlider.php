@@ -26,7 +26,7 @@ class HangGlider extends PluginBase implements Listener {
         $player = $event->getPlayer();
         $item = $event->getItem();
         if($item->getId() == Item::SLIME_BALL){
-            $eff = new EffectInstance(Effect::getEffect(Effect::LEVITATION), 100 * 99999, -4, true);
+            $eff = new EffectInstance(Effect::getEffect(Effect::LEVITATION), 100 * 99999, -4, false);
             $player->addEffect($eff);
         } else if (($player->hasEffect(Effect::LEVITATION)) and (!$item->getId() == Item::SLIME_BALL)){
             $player->removeEffect(24);
