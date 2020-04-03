@@ -1,6 +1,6 @@
 <?php
   
-namespace AntaxioYT\HangGlider;
+namespace Glider\HangGlider;
 
 use pocketmine\event\Listener;
 
